@@ -1,0 +1,29 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.55;
+}
+
+
+body {
+  min-height: 100vh;
+  font-family: 'Kanit', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  -webkit-tap-highlight-color: transparent;
+  --toastify-font-family: 'Kanit', sans-serif;
+  --dp-font-family: 'Kanit', sans-serif;
+  --dp-border-radius: 8px;
+  --dp-font-size: 14px;
+}
+#app{
+  background: #162A21;
+
+}
